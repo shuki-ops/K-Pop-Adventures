@@ -1,20 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
   <!-- Favicon -->
-  <link rel="icon" href="img/myAvatar" type="image/x-icon">
-  <title>K-Pop</title>
+  <link rel="icon" href="img/k-pop.png" type="image/x-icon">
+  <title>K-Pop Adventures</title>
 </head>
+
 <body>
+
   <!-- HEADER -->
   <header>
     <div class="shadow-sm rounded">
       <img class="d-block mx-auto" src="img/k-pop.png" width="200" draggable="false" alt="Logo">
     </div>
-  </header>
+    <!-- Navbar -->
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a class="navbar-brand mr-5" href="#">K-Pop Adventures</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" ariaexpanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- menu -->
+              <!-- menu -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <i class="fas fa-home"></i>
+                <a class="nav-link" href="index.html">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="autor.html">
+                  <i class="far fa-address-card"></i>
+                  About me
+                </a>
+              </li>
+              <!-- dropdown menu -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-blog"></i>
+                  Blog
+                </a>
+                <div class="dropdown-menu" id="custom-dropdown-menu">
+                  <a class="dropdown-item" href="list.html">
+                    BTS
+                    <span class="badge badge-secondary badge-info ml-2">
+                      New
+                    </span>
+                  </a>
+                  <a class="dropdown-item" href="list1.html">TXT</a>
+                  <a class="dropdown-item" href="list2.html">Blackpink</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">
+                  <i class="fas fa-id-card-alt"></i>
+                  Contact
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="score.html">
+                  <i class="fab fa-cc-mastercard"></i>
+                  Buy
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Partners.html">
+                  <i class="far fa-handshake"></i>
+                  Partners
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+          <!-- /menu -->
+            </div>
+          </nav>
+        </header>
 
 
 
@@ -149,5 +219,7 @@
   </footer>
 
 </body>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </html>
